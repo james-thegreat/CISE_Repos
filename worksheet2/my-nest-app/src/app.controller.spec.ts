@@ -13,10 +13,10 @@ describe('AppController', () => {
 
     appController = app.get<AppController>(AppController);
   });
-
+// fxed the file
   describe('root', () => {
-    it('should return "hello World!"', () => {
-      expect(appController.getHello()).toBe('hello World!');
+    it('should return "Hello World!"', () => {
+      expect(appController.getHello()).toBe('Hello World!');
     });
   });
 });
