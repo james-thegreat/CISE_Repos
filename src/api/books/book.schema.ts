@@ -17,7 +17,7 @@ export class Book {
     description: string;
 
     @Prop({ type: Date })
-    publisher_date: Date;
+    published_date: Date;
 
     @Prop()
     publisher: string;
